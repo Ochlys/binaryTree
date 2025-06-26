@@ -6,6 +6,6 @@
 #include "binary_node.h"
 
 void printTree(Node* tree);
-
+int depth(Node* tree);
 
 #endif // __BINARY_TREE_H__

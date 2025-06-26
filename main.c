@@ -23,7 +23,11 @@ int main(){
     printf("==============\n");
     printTree(MyTree);
     printf("==============\n");
+    int d = depth(MyTree);
+    printf("Profondeur de l'arbre : %d\n", d);
+    printf("==============\n");
     clearNodeTree(MyTree);
+
 
     return 0;
 

@@ -18,5 +18,7 @@ Node* createNode(unsigned int iKey, Node* iLeft, Node* iRight);
 void addNode(Node** tree, unsigned int iKey);
 void searchNode(Node* tree, unsigned int iKey);
 void clearNodeTree(Node* tree);
+void countNodes(Node* tree);	//Compte tous les noeuds
+// void infixCourse() // Afficher les clés dans l'odre croissant
 
 #endif // __BINARY_NODE_H__
